@@ -31,6 +31,10 @@ h1{
 h2{
     border-bottom: solid 3px goldenrod;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .categories{
     display: flex;
     justify-content: space-around;
@@ -38,9 +42,7 @@ h2{
     list-style: none;
     align-items: center;
 }
-.categories li a{
-    text-decoration: none;
-    color: black;
+.categories li{
     border: solid 3px black;
     border-radius: 6px;
     padding: .3rem;   
@@ -111,17 +113,15 @@ footer p{
     .logoA{
         display: none;
     }
-    .logoB{
-        display: inline;        
-    }
-    .categories li a{
-        border: none;
-    }
     .categories{
         margin: 2rem 0;
     }
     .categoriesFooter{
-        margin: 0;
+        margin: 0;    
+    }
+    .categoriesFooter .logoB{
+        border: none;
+        display: inline;
     }
     .producto{
         display: grid;
