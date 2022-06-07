@@ -17,6 +17,10 @@ main{
 h1{
     border-bottom: solid 3px goldenrod;
 }
+.separador{
+    color: goldenrod;
+    font-size: larger;
+}
 .imgPpal{
     width: 100%;
 }
